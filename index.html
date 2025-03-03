@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Link Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Link Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+    <div class="row">
+        <!-- Sidebar -->
+        <aside class="col-lg-3 mb-4">
+            <div class="card">
+                <img src="assests/images/profile.jpg" alt="Profile Picture">
+
+                <div class="card-body text-center">
+                    <h5>Your Name</h5>
+                    <p>Web Developer | Designer</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="col-lg-9">
+            <h2>Welcome to My Portfolio</h2>
+            <p>my name is OMER FAROOQ. I am a student of AI at itu.</p>
+        </main>
+    </div>
+</div>
+
+
+    <!-- Home Section -->
+    <section id="home" class="container text-center my-5">
+        <img src="assests/images/profile.jpg" class="rounded-circle img-fluid" alt="Profile Picture" width="150">
+        <h1>OMER FAROOQ</h1>
+        <p>Web Developer | AI | Learner</p>
+    </section>
+
+    <!-- Link Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Link Custom JavaScript -->
+    <script src="script.js"></script>
+
+    <section id="education" class="container my-5">
+    <h2 class="text-center">Education</h2>
+    <table class="table table-striped table-dark">
+        <thead>
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bachelor in artificial intelligence</td>
+                <td>Information Technology University</td>
+                <td>2023</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+
+<section id="projects" class="container my-5">
+    <h2 class="text-center">Projects</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="assests/images/project1.jpg" class="card-img-top" alt="Project 1">
+                <div class="card-body">
+                    <h5 class="card-title">Project 1</h5>
+                    <p class="card-text">Making a portfolio website</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="container my-5">
+    <h2 class="text-center">Skills</h2>
+    <div class="mb-3">
+        <label class="form-label">HTML</label>
+        <div class="progress">
+            <div class="progress-bar bg-success" style="width: 85%;">85%</div>
+        </div>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">CSS</label>
+        <div class="progress">
+            <div class="progress-bar bg-info" style="width: 78%;">78%</div>
+        </div>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">JavaScript</label>
+        <div class="progress">
+            <div class="progress-bar bg-warning" style="width: 60%;">60%</div>
+        </div>
+    </div>
+</section>
+
+
+
+<div id="alert-box" class="alert alert-success d-none" role="alert">
+    Message sent successfully!
+</div>
+
+<form id="contact-form">
+    <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" required>
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" required>
+    </div>
+    <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="3" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send</button>
+</form>
+</section>
+
+
+
+
+</body>
+</html>
