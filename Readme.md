@@ -21,4 +21,4 @@ A personal portfolio website built with **HTML, CSS, and Bootstrap 5**.
 - JavaScript (optional)
 
 ## 📩 Contact
-For any inquiries, reach out at **your-email@example.com**.
+For any inquiries, reach out at omerfarooq1882005@gmail.com
