@@ -26,7 +26,6 @@ section {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* ✅ Show alert without JavaScript */
 #alert-box:target {
     display: block !important;
 }
